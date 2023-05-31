@@ -1,0 +1,128 @@
+/* Basic style for Intro Page
+ * Shami Chatterjee 201507
+ */
+
+body {
+    font-family:
+    "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1.5em;
+}
+
+li {
+    margin: 1em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0068ac;
+    border-color: #0068ac;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    padding: 3px 0px 2px 0px;
+    background-color: inherit;
+}
+
+a:visited {
+    color: #073949;
+    border-color: #073949;
+    border-width: 0 0 1px 0;
+    border-style: none none dotted none;
+    padding: 3px 0px 2px 0px;
+    background-color: inherit;
+}
+
+a:hover {
+    color: #d8d2c9;
+    text-decoration: none;
+    background-color: #073949;
+    border-color: #073949;
+}
+
+a em {
+    padding-bottom: 2px;
+}
+
+#mainbody{
+    margin:30px;
+}
+
+#content{
+    margin: 1em;
+    padding: 1em;
+}
+
+#figure {
+    float: right;
+    width: 250px;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+#figure p {
+  font-size: smaller;
+  text-indent: 0;
+}
+
+#headerstrip{
+    position:absolute;
+    top:0; left:0;
+    width: 100%; height: 4em;
+    background: #073949;
+}
+
+#headerstrip h1{
+    color: #d8d2c9;
+    margin: 20px;
+}
+
+#footerstrip{
+    position:absolute;
+    bottom:0; left:0;
+    width: 100%; height: 20px;
+    background: #073949;
+}
+
+#footersig{
+    text-align:right;
+    font-style:italic;
+    padding: 1.5em;
+    vertical-align: text-bottom;
+}
+
+#footersig img{ vertical-align: text-bottom; }
+
+body>div#footerstrip{
+    position: fixed;
+}
+
+#toc_container {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 90%;
+    margin-bottom: 0em;
+    padding: 2px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: left;
+}
+
+#toc_container ul {
+    border-left: 5px solid #073949;
+    padding: 10px 30px;
+    padding-top: 0px;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: lower-roman outside none !important;
+    margin: 10px 0;
+    line-height:80%;
+}
+
